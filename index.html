@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vivaCare - Healthcare UI Component Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-heartbeat"></i>
+                vivaCare
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" class="nav-link"><i class="fas fa-pills"></i> Medicines</a></li>
+                <li><a href="#" class="nav-link"><i class="fas fa-stethoscope"></i> Consult</a></li>
+                <li><a href="#" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#" class="nav-link"><i class="fas fa-phone"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">vivaCare UI Component Library</h1>
+            <p class="hero-subtitle">Modern healthcare website components with Poppins typography</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary"><i class="fas fa-play"></i> Get Started</button>
+                <button class="btn btn-secondary"><i class="fas fa-book"></i> Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Buttons Section -->
+        <section class="component-section">
+            <h2>Buttons</h2>
+            <div class="component-showcase">
+                <button class="btn btn-primary"><i class="fas fa-check"></i> Primary Button</button>
+                <button class="btn btn-secondary"><i class="fas fa-star"></i> Secondary Button</button>
+                <button class="btn btn-accent"><i class="fas fa-shopping-cart"></i> Accent Button</button>
+            </div>
+        </section>
+
+        <!-- Input Components Section -->
+        <section class="component-section">
+            <h2>Input Components</h2>
+            <div class="component-showcase">
+                <div class="form-group">
+                    <label class="form-label"><i class="fas fa-user"></i> Text Input</label>
+                    <input type="text" class="form-input" placeholder="Enter text...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label"><i class="fas fa-envelope"></i> Email Input</label>
+                    <input type="email" class="form-input" placeholder="Enter email...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label"><i class="fas fa-lock"></i> Password Input</label>
+                    <input type="password" class="form-input" placeholder="Enter password...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label"><i class="fas fa-comment"></i> Textarea</label>
+                    <textarea class="form-textarea" placeholder="Enter message..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label"><i class="fas fa-search"></i> Search Bar</label>
+                    <div class="search-bar">
+                        <input type="search" class="search-input" placeholder="Search medicines...">
+                        <button class="search-btn"><i class="fas fa-search"></i> Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tags/Badges Section -->
+        <section class="component-section">
+            <h2>Tags & Badges</h2>
+            <div class="component-showcase">
+                <span class="tag tag-primary"><i class="fas fa-tag"></i> Primary</span>
+                <span class="tag tag-success"><i class="fas fa-check-circle"></i> Verified</span>
+                <span class="tag tag-warning"><i class="fas fa-fire"></i> Popular</span>
+            </div>
+        </section>
+
+        <!-- Alerts Section -->
+        <section class="component-section">
+            <h2>Alerts</h2>
+            <div class="component-showcase">
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i>
+                    <strong>Success!</strong> Your appointment has been booked.
+                </div>
+                <div class="alert alert-error">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <strong>Error!</strong> Please check your input and try again.
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards Section -->
+        <section class="component-section">
+            <h2>Cards</h2>
+            
+            <!-- General Card -->
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-hospital"></i>
+                </div>
+                <h3 class="card-title">General Card</h3>
+                <p class="card-text">This is a general purpose card component with shadow and hover effects.</p>
+                <button class="btn btn-primary"><i class="fas fa-arrow-right"></i> Learn More</button>
+            </div>
+
+            <!-- Medicine Cards Grid -->
+            <div class="grid">
+                <div class="card medicine-card">
+                    <div class="medicine-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-pills"></i>
+                            <span>Medicine</span>
+                        </div>
+                    </div>
+                    <div class="medicine-info">
+                        <h3 class="medicine-name">Paracetamol</h3>
+                        <p class="medicine-description">Pain reliever and fever reducer</p>
+                        <div class="medicine-price">$12.99</div>
+                        <button class="btn btn-accent"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card medicine-card">
+                    <div class="medicine-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-pills"></i>
+                            <span>Medicine</span>
+                        </div>
+                    </div>
+                    <div class="medicine-info">
+                        <h3 class="medicine-name">Vitamin C</h3>
+                        <p class="medicine-description">Immune system support</p>
+                        <div class="medicine-price">$8.99</div>
+                        <button class="btn btn-accent"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card medicine-card">
+                    <div class="medicine-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-pills"></i>
+                            <span>Medicine</span>
+                        </div>
+                    </div>
+                    <div class="medicine-info">
+                        <h3 class="medicine-name">Aspirin</h3>
+                        <p class="medicine-description">Blood thinner and pain reliever</p>
+                        <div class="medicine-price">$6.99</div>
+                        <button class="btn btn-accent"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Cards Grid -->
+            <div class="grid">
+                <div class="card doctor-card">
+                    <div class="doctor-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-user-md"></i>
+                            <span>Doctor</span>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">Dr. Sarah Johnson</h3>
+                        <p class="doctor-specialty">Cardiologist</p>
+                        <p class="doctor-experience">15 years experience</p>
+                        <span class="tag tag-success"><i class="fas fa-check"></i> Available</span>
+                        <button class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book Consultation</button>
+                    </div>
+                </div>
+
+                <div class="card doctor-card">
+                    <div class="doctor-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-user-md"></i>
+                            <span>Doctor</span>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">Dr. Michael Chen</h3>
+                        <p class="doctor-specialty">Pediatrician</p>
+                        <p class="doctor-experience">10 years experience</p>
+                        <span class="tag tag-warning"><i class="fas fa-clock"></i> Busy</span>
+                        <button class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forms Section -->
+        <section class="component-section">
+            <h2>Form Components</h2>
+            
+            <!-- Login Form -->
+            <div class="form-container">
+                <h3>Login Form</h3>
+                <form class="form">
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" class="form-input" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-lock"></i> Password</label>
+                        <input type="password" class="form-input" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-sign-in-alt"></i> Login</button>
+                </form>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="form-container">
+                <h3>Signup Form</h3>
+                <form class="form">
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-user"></i> Full Name</label>
+                        <input type="text" class="form-input" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" class="form-input" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-lock"></i> Password</label>
+                        <input type="password" class="form-input" placeholder="Create a password">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-lock"></i> Confirm Password</label>
+                        <input type="password" class="form-input" placeholder="Confirm your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-user-plus"></i> Sign Up</button>
+                </form>
+            </div>
+
+            <!-- Consultation Form -->
+            <div class="form-container">
+                <h3>Consultation Form</h3>
+                <form class="form">
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-notes-medical"></i> Symptoms</label>
+                        <textarea class="form-textarea" placeholder="Describe your symptoms..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-user-md"></i> Preferred Doctor</label>
+                        <select class="form-input">
+                            <option>Select a doctor</option>
+                            <option>Dr. Sarah Johnson - Cardiologist</option>
+                            <option>Dr. Michael Chen - Pediatrician</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-calendar-alt"></i> Preferred Time</label>
+                        <input type="datetime-local" class="form-input">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-calendar-check"></i> Book Consultation</button>
+                </form>
+            </div>
+
+            <!-- Order Form -->
+            <div class="form-container">
+                <h3>Order Form</h3>
+                <form class="form">
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-user"></i> Full Name</label>
+                        <input type="text" class="form-input" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-phone"></i> Phone Number</label>
+                        <input type="tel" class="form-input" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-map-marker-alt"></i> Delivery Address</label>
+                        <textarea class="form-textarea" placeholder="Enter your delivery address..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-city"></i> City</label>
+                        <input type="text" class="form-input" placeholder="Enter your city">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><i class="fas fa-mail-bulk"></i> Postal Code</label>
+                        <input type="text" class="form-input" placeholder="Enter postal code">
+                    </div>
+                    <button type="submit" class="btn btn-accent btn-full"><i class="fas fa-shopping-bag"></i> Place Order</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 vivaCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
